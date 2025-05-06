@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Michelia Campaka – Portofolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff0f5;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(to right, #ff6ec4, #7873f5);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+    header p {
+      font-size: 16px;
+    }
+    header img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      margin-top: 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      color: #d63384;
+      border-bottom: 2px solid #d63384;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+    a {
+      color: #d63384;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      background-color: #ffe4ec;
+      color: #555;
+    }
+    .project {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+    .project img {
+      width: 100px;
+      border-radius: 10px;
+    }
+    .project-text {
+      flex: 1;
+      min-width: 200px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 24px;
+      }
+      .project {
+        flex-direction: column;
+        align-items: center;
+      }
+      .project-text {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Michelia Campaka</h1>
+    <p>Design UI UX | Dokumentator | System Analyst</p>
+    <p>Nganjuk, Jawa Timur | <a href="mailto:micheliacmpa@gmail.com">micheliacmpa@gmail.com</a> | +62 812 3985 4614</p>
+    <p><a href="https://www.linkedin.com/in/michelia-campaka-42286a33b/" target="_blank">LinkedIn</a></p>
+    <img src="misel.jpg" alt="Foto Michelia Campaka" />
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>Profil</h2>
+      <p>Saya merupakan mahasiswa semester 4 Program Studi Teknik Informatika di Politeknik Negeri Jember, dengan pengalaman sebagai System Analyst, UI/UX Designer, dan Dokumentator. Aktif dalam pengembangan aplikasi berbasis web dan terlibat dalam berbagai proyek berbasis Project Based Learning. Memiliki IPK terkini sebesar 3,40.</p>
+    </section>
+
+    <section>
+      <h2>Proyek Yang Pernah Dibuat</h2>
+
+      <div class="project">
+        <img src="Scandyland.jpg" alt="Scandyland" />
+        <div class="project-text">
+          <h3>Scandyland</h3>
+          <p>Aplikasi Kasir Laundry berbasis desktop.</p>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="PerpusDig.png" alt="PerpusDig" />
+        <div class="project-text">
+          <h3>PerpusDig</h3>
+          <p>Aplikasi desktop dan web Perpustakaan Kab. Nganjuk.</p>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="SportEase.jpg" alt="SportEase" />
+        <div class="project-text">
+          <h3>SportEase</h3>
+          <p>Aplikasi Desktop dan web Komite Olahraga Nasional Indonesia Kab. Nganjuk.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Pendidikan</h2>
+      <ul>
+        <li><strong>Politeknik Negeri Jember</strong> – D4 Teknik Informatika (2023–Sekarang)</li>
+        <li><strong>SMA Negeri 1 Tanjunganom</strong> – IPA (2020–2023)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Pengalaman</h2>
+      <ul>
+        <li>System Analyst – SportEase</li>
+        <li>Design UI UX – Scandyland, PerpusDig, SportEase</li>
+        <li>Dokumentator – PerpusDig, SportEase</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Keterampilan</h2>
+      <ul>
+        <li>Technical: Microsoft Office, Canva, Figma</li>
+        <li>Tools: Android Studio, VS Code, Trello, Figma, Canva, phpMyAdmin</li>
+        <li>Soft Skills: Kepemimpinan, Problem Solving, Teamwork, Kreativitas</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Sertifikat Penghargaan</h2>
+      <ul>
+        <li>Sertifikat Ms.Office</li>
+        <li>Sertifikat TOEFL</li>
+        <li>Sertifikat UELTS</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Michelia Campaka. All rights reserved.
+  </footer>
+</body>
+</html>
